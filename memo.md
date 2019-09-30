@@ -6,6 +6,10 @@
 
 1. 普通 2 元数列 可以获取所有 subarray 的和，然后取最大
 
+2. Maximum Product Subarray( [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) )
+   和最大和的差别是， 最大乘积的时候 负数的影响， 如果不考虑负数的影响的话， 解法就是一样的
+   所以只需要把情况分为两种来讨论，正数的时候和最大和一样， 负数的时候，只需要乘以前面的最小值就OK
+
 ### Path
 
 1. Unique Path( [62. Unique Paths](https://leetcode.com/problems/unique-paths/) )
